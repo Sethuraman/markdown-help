@@ -29,6 +29,7 @@ If you would like to indent the link to group them like Heading 1 and Sub Headin
 You can organise your markdown files into directories and just specify the location in the link, just like the above.
 
 
+__Also, please note that markdown-help makes use of twitter bootstrap. So it should make your like simple enough :)__
 
 ##Technical Details
 There are 3 important files
