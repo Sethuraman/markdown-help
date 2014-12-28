@@ -11,11 +11,11 @@ $(document).ready(function(){
                 return query.split('=')[1];
             }
         }
-        return 'welcome';
+        return 'welcome.md';
     };
 
     var loadArticle=function(location){
-        $.get(location +'.md', function(data){
+        $.get(location, function(data){
             $('.article').empty();
            $('.article').append(marked(data));
         });
