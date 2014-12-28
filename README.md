@@ -17,8 +17,8 @@ Its quite simple actually.
 3. Update the index.html file to create links on your sidebar that will help people navigate your documentation.
 4. The links have to be added in this fashion -
 
- If your markdown file is called welcome.md, then add a link like the below into index.html
- 
+If your markdown file is called welcome.md, then add a link like the below into index.html
+
     <li class="active"><a href="?opentarget=welcome.md">Welcome</a></li>
 
 If you would like to indent the link to group them like Heading 1 and Sub Heading 1, then just add the class 'subSidebar' to the list item
@@ -41,3 +41,6 @@ The remaining files are your markdown files that form the basis of your user doc
 
 
 
+That's it.
+
+I searched high and low for a simple to make user documentation. HTML was to cumbersome. Embedded Google Docs had many issues. Finally this seems to work the best.
