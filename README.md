@@ -1,9 +1,9 @@
 markdown-help
 =============
 
-Create user documentation with markdown. A template with a sidebar with links is also provided. Simple convention based user documentation can be quickly created.
+Create user documentation with markdown. A bootstrap based template with a sidebar is also provided. 
 
-Create document like the below easily
+You could create user help documenation like the below quite quickly.
 
 ![Documentation Screenshot](DocumentationScreenshot.png)
 
@@ -29,8 +29,6 @@ If you would like to indent the link to group them like Heading 1 and Sub Headin
 You can organise your markdown files into directories and just specify the location in the link, just like the above.
 
 
-__Also, please note that markdown-help makes use of twitter bootstrap. So it should make your like simple enough :)__
-
 ##Technical Details
 There are 3 important files
 
@@ -38,10 +36,11 @@ There are 3 important files
 * marked.min.js - This has been lifted from the excelled markdown to HTML conversion library called *marked* located here [chjj/marked](https://github.com/chjj/marked).
 * articleLoader.js - This reads the markdown file based on the URL and serves it to marked. The HTML result from marked is appended to the main html.
 
-The remaining files are your markdown files that form the basis of your user documentation.
+The remaining files are your markdown files that form your user documentation.
 
 
 
 That's it.
+
 
 I searched high and low for a simple to make user documentation. HTML was to cumbersome. Embedded Google Docs had many issues. Finally this seems to work the best.
