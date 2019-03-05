@@ -9,7 +9,7 @@ You could create user help documenation like the below quite quickly.
 
 
 
-##How does it work
+## How does it work
 Its quite simple actually.
 
 1. Clone this repository locally. 
@@ -29,7 +29,7 @@ If you would like to indent the link to group them like Heading 1 and Sub Headin
 You can organise your markdown files into directories and just specify the location in the link, just like the above.
 
 
-##Technical Details
+## Technical Details
 There are 3 important files
 
 * index.html - This is the page that has links to the markdown files on the sidebar
